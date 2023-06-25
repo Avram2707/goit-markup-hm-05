@@ -947,6 +947,9 @@ img {
         letter-spacing: 0.04em;
 
 }
+.modal-comment {
+        margin-bottom: 16px;
+}
 
 .icon-user {
         stroke: #111111;
