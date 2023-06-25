@@ -923,16 +923,17 @@ img {
         border-radius: 4px;
         background-color: transparent;
         padding-left: 16px;
-        border: 1px solid rgba(46, 47, 66, 0.4);
         padding-left: 38px;
         outline: transparent;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         border-color: #4D5AE5;
+        border: 1px solid rgba(46, 47, 66, 0.4);
 
 }
 
 .modal-field {
         margin-bottom: 8px;
+        margin-bottom: 16px
 }
 
 .modal-label {
@@ -953,6 +954,7 @@ img {
         top: 50%;
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        fill: #4D5AE5;
               
 }
 .icon-user:focus {
@@ -978,6 +980,10 @@ img {
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         border: 1px solid #4D5AE5;
         border: 1px solid rgba(46, 47, 66, 0.4);
+        border-color: #4D5AE5;
+}
+.modal-checkbox {
+        margin-bottom: 24px;
 }
 
 .policy-check {
@@ -991,19 +997,22 @@ img {
         height: 16px;
         border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 2px;
-        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         display: inline-flex;
         align-items: center;
         justify-content: center;
         fill: transparent;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .input-check:checked + .checkbox-span {
         background-color: #404bbf;
         border: none;
         fill:#F4F4FD;
+}
+.modal-input:checked{
+        background-color: #404bbf;
+         border: none;
+        fill: #F4F4FD;
 }
 .checkbox-item {
         color:#4d5ae5;
